@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Playpen+Sans&family=Roboto+Slab&family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+  background-color:#0ea5e9;
+  height: 100vh;
+  color:white
+}
+
+.logo-text {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin: 20px 30px;
+}
+
+.logo-text h1 {
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.logo-text .material-icons {
+  font-size: 50px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  margin: 30px 40px;
+  font-size: 16px;
+}
+.list-item h3 {
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.gap-item {
+  margin-top: 60px;
+}
+
+.main {
+  background-color: white;
+  height: 100vh; 
+  display: grid;
+  grid-template-rows: 22% 78%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 30px;
+}
+.content {
+  background-color: #d4d4d4;
+}
+
+.class-form {
+  width: 60%;
+  height: 30px;
+  background-color: #d6d3d1;
+  border-radius: 20px;
+  border: 1px solid #d6d3d1;
+  margin-left: 20px;
+  margin-right: 10%; 
+}
+.navbar .account{
+  margin-left: 2%;
+  margin-right: 5%; 
+  font-size: 30px;
+}
+
+.welcome .user {
+  font-size: 50px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px 40px;
+}
+
+.right {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30%;
+
+} 
+
+.btn {
+  background-color: #3b82f6;
+  border-radius: 20px;
+  border: 1px solid #3b82f6;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 1px 40px;
+  cursor: pointer;
+}
+.content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 10px;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px;
+}
+
+.card-content .icons {
+  display: flex;
+  justify-content: end;
+
+}
+.card-content {
+  background-color: white; 
+  height: 100px;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-left: 5px solid #fbbf24;
+}
+
+.card-content p {
+  margin-top: 10px;
+  color: #71717a;
+  font-size: 14px;
+
+}
+
+.icons img {
+  height: 16px;
+  margin: 5px 10px;
+  padding-top: 20px;
+}
+
+.ann-trend {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.ann-card {
+  margin-top: 20px;
+}
+.ann-card, .trend-card {
+  background-color: white;
+  border-radius: 10px;
+  height: 80%;
+  width: 90%;
+}
+
+.ann-text p{
+  padding: 0 30px;
+  font-size: 12px;
+  color: #71717a;
+}
+
+.ann-text h5 {
+  font-size: 14px;
+  padding: 5px 30px;
+}
+
+.divider {
+  border-bottom: 0.5px solid #848486;
+  margin: 5px 20px;
+}
+
+.trend-text p {
+  color: #71717a;
+  font-size: 14px;
+  padding: 10px 30px;
+  text-align: justify;
+}
+
+.trend-card {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-image-text{
+  align-self: center;
+  font-size: 12px;
+
+
+}
